@@ -1,0 +1,43 @@
+form{
+    background-color: white;
+}
+.delete-product-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+    color: black;
+}
+.delete-product-body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 2px 10px 2px 10px;
+    color: black;
+}
+.delete-product-body-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.delete-product-button1{
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    padding: 4px 10px 4px 10px;
+    border-radius:7px ;
+    border: 1px white;
+    cursor: pointer;
+}
+.delete-product-button2{
+    margin-right: 10px;
+    background-color: rgb(79, 130, 109);
+    color: white;
+    padding: 4px 10px 4px 10px;
+    border-radius:7px ;
+    border: 1px white;
+    cursor: pointer;
+}

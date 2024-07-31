@@ -1,0 +1,53 @@
+
+.admin-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+.admin-head-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(239, 226, 208);
+}
+.unactive-link {
+  color: black;
+}
+.active-link {
+  color: green;
+}
+#admin-text {
+  font-size: 20px;
+  color: black;
+  margin-right: 0px;
+}
+
+.admin-first-buttons {
+  flex-grow: 1;
+  margin: 40px;
+}
+.admin-first-buttons span{
+  font-size: 12px;
+}
+.admin-first-buttons b {
+  margin: 15px;
+  font-size: 15px;
+}
+.admin-last-buttons {
+  margin-right: 10px;
+}
+.admin-last-buttons b {
+  font-size: 15px;
+  color: black;
+}
+.admin-last-buttons img {
+  width: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+.admin-last-buttons span {
+  position: absolute;
+  color: black;
+}

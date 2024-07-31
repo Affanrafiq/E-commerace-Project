@@ -1,0 +1,46 @@
+.user-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.user-heading h3 {
+  /* font-size: 25px; */
+  text-decoration: underline;
+  margin: 0%;
+}
+
+.user-heading .add-new-button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(79, 130, 109);
+  color: white;
+}
+.table-wrapper {
+  display: flex;
+}
+.table-wrapper .table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.table-wrapper .table .Admin-btn {
+  display: flex;
+  justify-content: center;
+}
+.table-wrapper .table .Admin-btn button {
+  margin: 3px;
+  background-color: rgb(175, 237, 211);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.table-wrapper .table img {
+  width: 20px;
+}
+.total-users {
+  margin: 10px;
+  font-size: 25px;
+  align-items: right;
+}

@@ -1,0 +1,103 @@
+.Header-Wrapper {
+    display: flex;
+
+}
+
+#img {
+
+    max-width: 40%;
+    height: 400px;
+
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    background-color: rgb(246, 236, 225);
+    font-size: 20px;
+}
+
+.discription b,
+i {
+
+    margin-left: 20px;
+
+}
+
+.discription button {
+    padding: 1px 50px 1px 50px;
+    margin-left: 25px;
+    width: 200px;
+    margin-top: 7px;
+
+}
+
+.discription button:hover {
+    background-color: rgb(203, 216, 239);
+}
+
+.All-body-Wrapper {
+    display: flex;
+    margin: 7px 5px 7px 5px;
+}
+.body-wrapper {
+    position: relative;
+    width: 100%;
+    height: 417px;
+    margin: 2px;
+}
+
+.body-wrapper img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.body-wrapper .btn-group {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.body-wrapper .btn-group button{
+    cursor: pointer;
+}
+.Email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(251, 226, 226);
+}
+
+.Email-wrapper {
+
+    text-align: center;
+    width: 35%;
+    color: black;
+}
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Email-wrapper img {
+    height: 15px;
+}
+.input-field input{
+    height: 27px;
+    width: 100%;
+}
+.input-field button{
+  height: 27px;
+  background-color: green;
+  
+}

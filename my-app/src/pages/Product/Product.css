@@ -1,0 +1,79 @@
+#Product {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Header-produts {
+    display: flex;
+    margin-left: 10px;
+}
+
+#selection1 {
+
+    margin: 5px;
+    padding: 2px;
+}
+
+#selection2 {
+    margin: 5px;
+    padding: 2px;
+}
+
+#selection3 {
+    padding: 2px;
+    margin: 5px;
+}
+
+.section3 {
+    flex: 70px;
+    margin-right: 40px;
+    text-align: end;
+}
+
+.cars-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+.car-container {
+    flex-grow: 1;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    border: 2px solid rgb(39, 39, 194);
+}
+.car {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+.combine-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    opacity: 0;
+    gap: 10px;
+}
+
+.car-container:hover .combine-buttons {
+    opacity: 1;
+}
+
+.car-buttons {
+
+    width: 25px;
+    
+}
+.combine-buttons button{
+    border-radius: 50px;
+    padding: 10px 10px 5px 10px;
+
+}
+.combine-buttons button:hover{
+    background-color:rgb(240, 81, 81);
+
+}

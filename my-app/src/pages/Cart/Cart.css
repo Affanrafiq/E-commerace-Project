@@ -1,0 +1,104 @@
+.Header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    margin: 10px;
+}
+
+.header-button1 button:active {
+    background-color: rgb(199, 154, 240);
+
+}
+
+.header-button2 {
+    width: 74%;
+    text-align: center;
+}
+
+.header-button3 {
+    text-align: end;
+}
+
+.product-wrpper{
+   
+    width: auto;
+    height: 130px ;
+    border: 1px dotted black;
+    border-radius: 4px;
+    margin: 20px 10px 0px 10px;
+}
+
+.product-list {
+
+    display: flex;
+    margin: 4px 0px 0px 4px;
+    width: auto;
+    height: 120px;
+}
+
+.container1 {
+    display: flex;
+width: 70%;
+}
+
+.container1 img {
+    width: 20%;
+}
+
+.container1-detail {
+   margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+   
+}
+.button-container1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+.product-list-button{
+margin-top: 7px;
+margin-bottom: 20px;
+
+}
+.product-list-button button{
+    margin: 7px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.deleteicon{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+
+}
+.deleteicon button{
+    padding: 50px 100px ;
+    text-decoration: none;
+    background-color: white;
+    border: white;
+    cursor: pointer;
+
+}
+.product-wrpper2{
+    width: auto;
+    height: 130px ;
+    border: 1px dotted black;
+    border-radius: 4px;
+    margin: 0px 10px 0px 10px;
+}
+.product-wrpper3{
+    width: auto;
+    height: 130px ;
+    border: 1px dotted black;
+    border-radius: 4px;
+    margin: 0px 10px 0px 10px;
+}

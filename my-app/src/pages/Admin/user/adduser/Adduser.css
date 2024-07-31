@@ -1,0 +1,36 @@
+.add-user-wrapper {
+  width: 307px;
+  color: black;
+  padding: 20px;
+}
+.add-user-wrapper .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+.add-user-wrapper label {
+  display: block;
+  font-weight: bold;
+}
+.add-user-wrapper input {
+  width: 100%;
+  padding: 7px 7px 7px 7px;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.add-user-wrapper .btn-group{
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+}
+.add-user-wrapper button {
+  margin: 5px;
+  background-color: rgb(79, 130, 109);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

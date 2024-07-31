@@ -1,0 +1,82 @@
+.LogIn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.LogIn-wrapper #bg-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+.LogIn-wrapper form {
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    min-height: 190px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    padding: 10px 20px;
+}
+.LogIn-wrapper form h5{
+    margin-bottom: 20px;
+}
+
+.LogIn-wrapper input[type=email] {
+    width: 100%;
+    padding: 7px 7px 7px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+
+}
+
+.LogIn-wrapper input[type=password] {
+    width: 100%;
+    padding: 7px 7px 7px 7px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.LogIn-wrapper input[type=text] {
+    width: 100%;
+    padding: 7px 7px 7px 7px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.LogIn-wrapper .EYE {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+.LogIn-wrapper .button {
+    background-color: rgb(64, 107, 64);
+    color: white;
+    margin-top: 15px;
+    border-radius: 4px;
+    padding: 5px 20px ;
+    cursor: pointer;
+}
